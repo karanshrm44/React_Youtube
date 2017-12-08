@@ -10,7 +10,7 @@ const VideoDetail = ({video}) => {
 
     console.log(video);
      const videoId=video.id.videoId;
-     const url=`http://www.youtube.com/embed/${videoId}?autoplay=0`;
+     const url=`https://www.youtube.com/embed/${videoId}?autoplay=0`;
 
     return(
 
